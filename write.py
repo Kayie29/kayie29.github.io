@@ -19,7 +19,7 @@ def main():
 
     
     filename = os.path.join(folder_path, f"{today}.md")
-    print(filename)
+    #print(filename)
     try:
         inp = input("Type in an entry:  ")
         with open(filename, "a") as file:
