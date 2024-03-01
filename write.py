@@ -10,7 +10,7 @@ def main():
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H_%M_%S.%f")[:-3]
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     print(today)
-    folder_path = "entries"
+    folder_path = "blog-entries"
 
 
     # Check if the folder exists, create it if it doesn't
