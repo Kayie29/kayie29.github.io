@@ -14,70 +14,92 @@
       }
 
       body {
-        background-color: #f8f9fc;
-        color: #333;
+        background-color: #f9fafb;
+        color: #111827;
         line-height: 1.6;
       }
 
       .container {
         width: 90%;
-        max-width: 1000px;
+        max-width: 1100px;
         margin: auto;
-        padding: 20px 0;
+        padding: 40px 0;
       }
 
       header {
-        background-color: #6d28d9;
+        background: linear-gradient(90deg, #7c3aed, #4f46e5);
         color: white;
-        padding: 40px 0;
         text-align: center;
+        padding: 60px 20px;
       }
 
       header h1 {
-        font-size: 2.8rem;
+        font-size: 3rem;
         margin-bottom: 10px;
       }
 
       header p {
         font-size: 1.2rem;
-        opacity: 0.9;
+        opacity: 0.95;
       }
 
       section {
-        padding: 40px 0;
+        padding: 60px 0;
       }
 
       h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
-        color: #4c1d95;
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+        color: #4f46e5;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
       }
 
       .profile-pic {
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
         border-radius: 50%;
         display: block;
-        margin: 20px auto;
-        border: 4px solid #6d28d9;
+        margin: 0 auto 20px auto;
+        border: 5px solid #7c3aed;
       }
 
-      ul {
+      .about-text {
+        max-width: 800px;
+        margin: auto;
+        font-size: 1.1rem;
+      }
+
+      ul.projects {
         list-style-type: none;
+        padding-left: 0;
       }
 
-      li {
-        margin-bottom: 30px;
+      ul.projects li {
+        margin-bottom: 40px;
+        padding: 20px;
+        background-color: #f3f4f6;
+        border-left: 5px solid #4f46e5;
+        border-radius: 4px;
       }
 
-      li h3 {
-        font-size: 1.5rem;
-        color: #6d28d9;
+      ul.projects li h3 {
+        font-size: 1.4rem;
+        color: #1f2937;
       }
 
       a {
-        color: #6d28d9;
+        color: #4f46e5;
         text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .contact p {
+        font-size: 1rem;
+        margin-bottom: 10px;
       }
 
       footer {
@@ -85,6 +107,7 @@
         background-color: #e5e7eb;
         padding: 20px 0;
         font-size: 0.9rem;
+        margin-top: 40px;
       }
     </style>
   </head>
@@ -100,32 +123,35 @@
       <div class="container">
         <h2>About Me</h2>
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQFWBMhtMAt_5A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730469770177?e=1753315200&v=beta&t=h5zSOeQcVFZbH1KHq4P85U0UfrzJuzpobTB8eAzLbVc" alt="Anthonia profile" class="profile-pic" />
-        <p>I’m passionate about using data to solve problems, especially those affecting underserved communities. With a background in customer service, tech strategy, and project coordination, I’m currently developing skills in data analytics and Python to enhance community-focused innovation.</p>
+        <div class="about-text">
+          <p>I’m Anthonia, a budding data analyst with a strong foundation in project management and a passion for transforming raw data into impactful insights. My work is deeply rooted in community development, and I thrive at the intersection of technology and human-centered design.</p>
+          <p>With hands-on experience supporting a remote team, coordinating service delivery for clients, and creating customer-centered solutions, I'm now expanding my technical skillset in Python, data visualization, and analytical thinking to deliver smarter, data-driven outcomes. I believe that behind every dataset is a story — and I’m here to uncover it.</p>
+        </div>
       </div>
     </section>
 
     <section id="projects">
       <div class="container">
         <h2>Projects</h2>
-        <ul>
+        <ul class="projects">
           <li>
             <h3>Post-Harvest Loss Analysis</h3>
-            <p>Analyzed smallholder farmer data to uncover patterns contributing to post-harvest losses in Nigeria, providing actionable insights for tech-driven interventions.</p>
+            <p>This project explores the causes of post-harvest losses among smallholder farmers in Nigeria. Using collected data, I identified critical factors such as inadequate storage and poor access to transport. The project offered recommendations for tech-enabled interventions like shared cold rooms and SMS-based supply chain alerts.</p>
           </li>
           <li>
             <h3>Community WiFi Impact Dashboard</h3>
-            <p>Developed a dashboard to visualize usage patterns and community benefit from Afrieta’s free network initiative using Excel and basic data visualization tools.</p>
+            <p>I created an interactive dashboard to track and visualize the reach and performance of Afrieta’s free internet services in schools and faith-based institutions. Using Excel and Google Data Studio, the dashboard provides real-time visibility into community connectivity patterns and helps prioritize underserved areas.</p>
           </li>
           <li>
             <h3>Customer Sentiment Tracker</h3>
-            <p>Built a simple Python script to evaluate customer feedback sentiment, identifying trends from online reviews for improved support strategies.</p>
+            <p>This Python-based tool processes customer support chat logs to analyze satisfaction trends. By applying natural language processing basics, the tracker helps pinpoint recurring service issues, enabling timely responses and boosting customer experience.</p>
           </li>
         </ul>
       </div>
     </section>
 
     <section id="contact">
-      <div class="container">
+      <div class="container contact">
         <h2>Contact Me</h2>
         <p>Email: <a href="mailto:akwetekayi@gmail.com">akwetekayi@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/anthonia">linkedin.com/in/anthonia</a></p>
