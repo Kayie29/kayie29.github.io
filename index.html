@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Anthonia's Data Analytics Portfolio</title>
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://anthonia-portfolio.github.io/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthonia | Data Analytics Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
     <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4D03AQFWBMhtMAt_5A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730469770177?e=1753315200&v=beta&t=h5zSOeQcVFZbH1KHq4P85U0UfrzJuzpobTB8eAzLbVc" />
-    <meta property="og:site_name" content="Anthonia | Data Analyst" />
-    <meta property="og:description" content="A professional portfolio highlighting Anthonia's journey in Data Analytics, community-led innovation, and digital strategy." />
-    <meta name="about-me" content="Anthonia | Data Analytics | Project Management" />
-    <meta name="keywords" content="Anthonia, Data Analytics, Project Management, Afrieta, Tech Strategy, CV, Portfolio" />
-    <link rel="stylesheet" href="output.css" />
   </head>
-
   <body>
-    <div class="bg-slate-50 w-full md:flex justify-between items-center px-2 md:px-40 space-y-2 md:space-y-0 h-screen">
-      <div class="w-full md:w-1/2 space-y-3">
-        <div>
-          <h2 class="font-bold text-gray-700 text-xl md:text-3xl">Hi there! I’m</h2>
-          <h2 class="font-extrabold text-purple-600 text-6xl md:text-7xl">
-            Anthonia
-          </h2>
-        </div>
-
-        <p class="text-gray-600">
-          Passionate about community-centric innovation and currently exploring data analytics and project management to solve real-world problems — especially those affecting underserved communities.
-        </p>
-
-        <div class="w-full mt-10 flex space-x-6 items-center">
-          <a 
-            href="about.html" 
-            class="p-2 rounded-md bg-white hover:scale-110 transition ease-in-out flex justify-center px-5 hover:bg-purple-600 hover:text-white hover:font-bold border font-bold"
-          >
-            About
-          </a>
-
-          <a 
-            href="projects.html" 
-            class="p-2 rounded-md bg-white hover:scale-110 transition ease-in-out flex justify-center px-5 hover:bg-purple-600 hover:text-white hover:font-bold border font-bold"
-          >
-            Projects
-          </a>
-
-          <a 
-            href="contact.html" 
-            class="p-2 rounded-md bg-white hover:scale-110 transition ease-in-out flex justify-center px-5 hover:bg-purple-600 hover:text-white hover:font-bold border font-bold"
-          >
-            Contact
-          </a>
-        </div>
+    <header>
+      <div class="container">
+        <h1>Anthonia</h1>
+        <p>Data Analyst | Project Manager | Community-Centric Innovator</p>
       </div>
+    </header>
 
-      <div class="w-full md:w-1/2 flex justify-center">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFWBMhtMAt_5A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730469770177?e=1753315200&v=beta&t=h5zSOeQcVFZbH1KHq4P85U0UfrzJuzpobTB8eAzLbVc" alt="Anthonia's Profile Picture" class="border-4 border-purple-600 w-full max-w-xs h-auto rounded-full" />
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFWBMhtMAt_5A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730469770177?e=1753315200&v=beta&t=h5zSOeQcVFZbH1KHq4P85U0UfrzJuzpobTB8eAzLbVc" alt="Anthonia profile" class="profile-pic" />
+        <p>I’m passionate about using data to solve problems, especially those affecting underserved communities. I bring experience in tech strategy, customer success, and project management. Currently learning data analytics and Python to enhance my impact in the digital space.</p>
       </div>
-    </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Post-Harvest Loss Analysis</h3>
+            <p>Analyzing smallholder farmer data in Nigeria to find trends and propose tech-driven storage solutions.</p>
+          </li>
+          <li>
+            <h3>Community WiFi Impact Dashboard</h3>
+            <p>Designed an interactive dashboard to visualize usage trends and community impact for Afrieta’s free network program.</p>
+          </li>
+          <li>
+            <h3>Customer Review Sentiment Tracker</h3>
+            <p>Built a basic sentiment analysis project using Python and customer feedback from Google Reviews.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Email: anthonia@email.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/anthonia">anthonia</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Anthonia. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
